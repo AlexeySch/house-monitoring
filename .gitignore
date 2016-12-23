@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/Monitoring/bin
+/Monitoring/obj
+/packages
+/Monitoring/project.lock.json
+/Monitoring/Monitoring.xproj.user
+*.user

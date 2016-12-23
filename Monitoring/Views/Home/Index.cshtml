@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>
+    <div class="row">
+        <div align="right" class="col-md-4 label label-primary">Temperature, C</div>
+    <div id="temp-value" class="col-md-8">-</div>
+        </div>
+    <div class="row">
+        <div align="right" class="col-md-4 label label-primary">Humidity, %</div>
+        <div id="hum-value" class="col-md-8">-</div>
+    </div>
+    <div class="row">
+        <div align="right" class="col-md-4 label label-primary">Power, V</div>
+        <div id="power-value" class="col-md-8">-</div>
+    </div>
+    <div class="row">
+        <div align="right" class="col-md-4 label label-primary">Power Status</div>
+        <div id="power-status-value" class="col-md-8">-</div>
+    </div>
+</h1>
+
+
+            @section scripts {
+                <script src="~/js/status.js" asp-append-version="true"></script>
+            }
