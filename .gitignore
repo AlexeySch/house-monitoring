@@ -9,3 +9,4 @@
 /Monitoring/project.lock.json
 /Monitoring/Monitoring.xproj.user
 *.user
+/Monitoring/tunnel.pem
